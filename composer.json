@@ -1,5 +1,5 @@
 {
-    "name": "guillaume/kafka-queue",
+    "name": "guillaume-boutin/kafka-queue",
     "autoload": {
         "psr-4": {
             "Guillaume\\KafkaQueue\\": "src/"
