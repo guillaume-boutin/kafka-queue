@@ -1,0 +1,19 @@
+{
+    "name": "guillaume/kafka-queue",
+    "autoload": {
+        "psr-4": {
+            "Guillaume\\KafkaQueue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "guillaume-boutin",
+            "email": "guillaumeboutin2101@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-rdkafka": "*",
+        "laravel/framework": ">=8.12"
+    }
+}
