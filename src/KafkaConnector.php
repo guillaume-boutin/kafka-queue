@@ -9,7 +9,7 @@ use RdKafka\Producer;
 
 class KafkaConnector implements ConnectorInterface
 {
-    public function connect(array $config)
+    public function connect(array $config): KafkaQueue
     {
         $conf = new Conf();
 

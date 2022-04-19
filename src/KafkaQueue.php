@@ -39,9 +39,8 @@ class KafkaQueue extends Queue implements QueueContract
 
     public function pop($queue = null)
     {
-        $this->consumer->subscribe([$queue]);
-
         try {
+            $this->consumer->subscribe([$queue]);
             $message = $this->consumer->consume(120_000);
 
             switch ($message->err) {
